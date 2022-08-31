@@ -4,8 +4,6 @@
 
 tasks:
   - name: Setup
-  - init: yarn setup
-  - name: Foundry
-  - init: foundryup
+  - init: yarn setup && source /home/gitpod/.bashrc && foundryup
 
 
